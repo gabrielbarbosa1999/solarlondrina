@@ -12,7 +12,3 @@ function openMenu() {
         opener.classList.add('fa-times');
     }
 }
-
-window.onresize = function(){
-    location.reload();
-};
