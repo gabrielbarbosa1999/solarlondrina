@@ -95,12 +95,34 @@ header .logo img {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400px;
     text-transform: uppercase;
+    text-align: center;
+}
+.section-bar {
+    width: 250px;
+    height: 5px;
+    background-color: #b46400;
+    border-radius: 20px;
 }
 
 .about {
     margin-top: 30px;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+}
+.about-body {
+    margin: auto;
+    max-width: 1140px;
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+}
+.about-img img {
+    max-width: 400px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 12px 2px #ec9223; 
+    box-shadow: 0px 0px 12px 2px #ec9223;
 }
 
 @media (max-width: 740px) {
