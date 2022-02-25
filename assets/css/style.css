@@ -53,11 +53,14 @@ header .logo img {
 
 .header-title {
     background-image: url('../images/background.jpg');
+    background-color: #000;
     background-size: cover;
-    background-position: bottom;
     background-attachment: fixed;
+    background-position: bottom;
     height: calc(100vh - 80px);
     margin-top: 80px;
+    overflow: hidden;
+    border-bottom: 5px solid #ec9223;
 }
 .header-body {
     height: calc(100vh - 80px);
@@ -85,6 +88,19 @@ header .logo img {
     font-weight: 400;
     color: #fff;
     text-transform: uppercase;
+}
+
+.section-title {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400px;
+    text-transform: uppercase;
+}
+
+.about {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 @media (max-width: 740px) {
