@@ -125,6 +125,47 @@ header .logo img {
     border-radius: 15px;
     margin-left: 20px;
 }
+
+.servicos {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.servicos-content {
+    width: 100%;
+    max-width: 1140px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.servicos-item {
+    width: 100%;
+    max-width: 350px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.servicos-item i {
+    font-size: 65px;
+    padding: 10px;
+    color: #b46400;
+}
+.servicos-item .servicos--title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    padding: 10px;
+}
+.servicos-item .servicos--body {
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
 @media (min-width:601px) and (max-width: 740px) {
     .menu .menu-bars {
         display: block;
