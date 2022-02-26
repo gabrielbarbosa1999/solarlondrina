@@ -145,6 +145,7 @@ header .logo img {
     .menu ul {
         flex-direction: column;
         align-items: center;
+        width: 100vw;
     }
     .menu a {
         margin: 15px;
@@ -176,6 +177,7 @@ header .logo img {
     .menu ul {
         flex-direction: column;
         align-items: center;
+        width: 100vw;
     }
     .menu a {
         margin: 15px;
