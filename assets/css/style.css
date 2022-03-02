@@ -5,6 +5,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+.button {
+    display: inline-block;
+    background-color: #B28756;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
 header {
     position: fixed;
     display: flex;
@@ -166,6 +179,130 @@ header .logo img {
     font-family: 'Open Sans', sans-serif;
 }
 
+.portfolio {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.portfolio-content {
+    width: 100%;
+    max-width: 1140px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.portfolio-content a {
+     text-decoration: none;
+}
+.portfolio-content--photo {
+    width: 280px;
+}
+.portfolio-content--photoarea {
+    margin: 10px;
+    width: 260px;
+}
+.portfolio-content--photoarea img {
+    width: inherit;
+    height: inherit;
+}
+.portfolio-content--photoinfo {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+}
+.portfolio-content--photoinfo h5 {
+    font-size: 18px;
+    font-weight: 600px;
+    font-family: 'Montserrat', sans-serif;
+}
+.portfolio-content--photoinfo p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contato {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.contato-body {
+    margin: auto;
+    max-width: 1140px;
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contato-icon {
+    text-align: center;
+    font-size: 18px;
+}
+.contato-icon i {
+    font-size: 18px;
+}
+.contato-body  form {
+    display: flex;
+    flex-direction: column;
+}
+.contato-body  form input {
+    width: 500px;
+    height: 40px;
+    margin: 5px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border: none;
+    border-bottom: 2px solid #afafaf;
+    text-transform: uppercase;
+    outline: none;
+}
+.contato-body  form .form-inputs input {
+    width: 245px;
+}
+.contato-body form input[name*="message"] {
+    margin-top: 40px;
+}
+
+.contato-body form button {
+    border: none;
+    width: 200px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.localizacao {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.localizacao-body {
+    margin: auto;
+    max-width: 1140px;
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 @media (min-width:601px) and (max-width: 740px) {
     .menu .menu-bars {
         display: block;
@@ -190,6 +327,10 @@ header .logo img {
     }
     .menu a {
         margin: 15px;
+    }
+
+    .header-body h1 {
+        text-align: center;
     }
 
     .about-img img {
@@ -226,6 +367,7 @@ header .logo img {
 
     .header-body h1 {
         font-size: 60px;
+        text-align: center;
     }
     .header-body h2 {
         font-size: 20px;
@@ -246,5 +388,18 @@ header .logo img {
     .about-img img {
         max-width: 300px;
         margin-top: 20px;
+    }
+
+    .contato-body form .form-inputs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .contato-body form {
+        align-items: center;
+    }
+    .contato-body form input {
+        width: 250px;
     }
 }
