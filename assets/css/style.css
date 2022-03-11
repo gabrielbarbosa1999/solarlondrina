@@ -111,7 +111,7 @@ header .logo img {
     text-align: center;
 }
 .section-bar {
-    width: 250px;
+    width: 300px;
     height: 5px;
     background-color: #b46400;
     border-radius: 20px;
@@ -302,6 +302,19 @@ header .logo img {
     justify-content: center;
     flex-direction: column;
 }
+
+footer {
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+footer a {
+    color: #000;
+}
+
 
 @media (min-width:601px) and (max-width: 740px) {
     .menu .menu-bars {
